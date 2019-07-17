@@ -11,9 +11,15 @@
 
     <artifactId>fosterpet-cmlx-pojo</artifactId>
 
-    <name>fosterpet-cmlx-pojo</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.fosterpet.cmlx</groupId>
+            <artifactId>fosterpet-cmlx-db</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <!--配置发布信息 -->
     <distributionManagement>
